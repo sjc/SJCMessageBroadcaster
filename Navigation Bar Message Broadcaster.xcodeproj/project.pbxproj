@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17022617188AEFBD007FE04C /* SJCMessageBroadcaster.m in Sources */ = {isa = PBXBuildFile; fileRef = 17022614188AEFBD007FE04C /* SJCMessageBroadcaster.m */; };
+		17022618188AEFBD007FE04C /* SJCMessageRecieverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17022616188AEFBD007FE04C /* SJCMessageRecieverViewController.m */; };
+		17AB850818897193002CB0B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17AB850718897193002CB0B1 /* Foundation.framework */; };
+		17AB850A18897193002CB0B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17AB850918897193002CB0B1 /* CoreGraphics.framework */; };
+		17AB850C18897193002CB0B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17AB850B18897193002CB0B1 /* UIKit.framework */; };
+		17AB851218897193002CB0B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17AB851018897193002CB0B1 /* InfoPlist.strings */; };
+		17AB851418897193002CB0B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17AB851318897193002CB0B1 /* main.m */; };
+		17AB851818897193002CB0B1 /* SJCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17AB851718897193002CB0B1 /* SJCAppDelegate.m */; };
+		17AB851B18897193002CB0B1 /* SJCRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17AB851A18897193002CB0B1 /* SJCRootViewController.m */; };
+		17AB851E18897193002CB0B1 /* SJCRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17AB851C18897193002CB0B1 /* SJCRootViewController.xib */; };
+		17AB852018897193002CB0B1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17AB851F18897193002CB0B1 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		17022613188AEFBD007FE04C /* SJCMessageBroadcaster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJCMessageBroadcaster.h; sourceTree = "<group>"; };
+		17022614188AEFBD007FE04C /* SJCMessageBroadcaster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJCMessageBroadcaster.m; sourceTree = "<group>"; };
+		17022615188AEFBD007FE04C /* SJCMessageRecieverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJCMessageRecieverViewController.h; sourceTree = "<group>"; };
+		17022616188AEFBD007FE04C /* SJCMessageRecieverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJCMessageRecieverViewController.m; sourceTree = "<group>"; };
+		17AB850418897193002CB0B1 /* Navigation Bar Message Broadcaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Navigation Bar Message Broadcaster.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17AB850718897193002CB0B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		17AB850918897193002CB0B1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		17AB850B18897193002CB0B1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		17AB850F18897193002CB0B1 /* Navigation Bar Message Broadcaster-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Navigation Bar Message Broadcaster-Info.plist"; sourceTree = "<group>"; };
+		17AB851118897193002CB0B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		17AB851318897193002CB0B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17AB851518897193002CB0B1 /* Navigation Bar Message Broadcaster-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Navigation Bar Message Broadcaster-Prefix.pch"; sourceTree = "<group>"; };
+		17AB851618897193002CB0B1 /* SJCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJCAppDelegate.h; sourceTree = "<group>"; };
+		17AB851718897193002CB0B1 /* SJCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJCAppDelegate.m; sourceTree = "<group>"; };
+		17AB851918897193002CB0B1 /* SJCRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJCRootViewController.h; sourceTree = "<group>"; };
+		17AB851A18897193002CB0B1 /* SJCRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJCRootViewController.m; sourceTree = "<group>"; };
+		17AB851D18897193002CB0B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SJCRootViewController.xib; sourceTree = "<group>"; };
+		17AB851F18897193002CB0B1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		17AB852618897194002CB0B1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		17AB852E18897194002CB0B1 /* Navigation Bar Message BroadcasterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Navigation Bar Message BroadcasterTests-Info.plist"; sourceTree = "<group>"; };
+		17AB853018897194002CB0B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		17AB853218897194002CB0B1 /* Navigation_Bar_Message_BroadcasterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Navigation_Bar_Message_BroadcasterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17AB850118897193002CB0B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17AB850A18897193002CB0B1 /* CoreGraphics.framework in Frameworks */,
+				17AB850C18897193002CB0B1 /* UIKit.framework in Frameworks */,
+				17AB850818897193002CB0B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17022612188AEFBD007FE04C /* SJCMessageBroadcaster */ = {
+			isa = PBXGroup;
+			children = (
+				17022613188AEFBD007FE04C /* SJCMessageBroadcaster.h */,
+				17022614188AEFBD007FE04C /* SJCMessageBroadcaster.m */,
+				17022615188AEFBD007FE04C /* SJCMessageRecieverViewController.h */,
+				17022616188AEFBD007FE04C /* SJCMessageRecieverViewController.m */,
+			);
+			path = SJCMessageBroadcaster;
+			sourceTree = SOURCE_ROOT;
+		};
+		17AB84FB18897193002CB0B1 = {
+			isa = PBXGroup;
+			children = (
+				17AB850D18897193002CB0B1 /* Navigation Bar Message Broadcaster */,
+				17AB852C18897194002CB0B1 /* Navigation Bar Message BroadcasterTests */,
+				17AB850618897193002CB0B1 /* Frameworks */,
+				17AB850518897193002CB0B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17AB850518897193002CB0B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17AB850418897193002CB0B1 /* Navigation Bar Message Broadcaster.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17AB850618897193002CB0B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17AB850718897193002CB0B1 /* Foundation.framework */,
+				17AB850918897193002CB0B1 /* CoreGraphics.framework */,
+				17AB850B18897193002CB0B1 /* UIKit.framework */,
+				17AB852618897194002CB0B1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17AB850D18897193002CB0B1 /* Navigation Bar Message Broadcaster */ = {
+			isa = PBXGroup;
+			children = (
+				17022612188AEFBD007FE04C /* SJCMessageBroadcaster */,
+				17AB851618897193002CB0B1 /* SJCAppDelegate.h */,
+				17AB851718897193002CB0B1 /* SJCAppDelegate.m */,
+				17AB851918897193002CB0B1 /* SJCRootViewController.h */,
+				17AB851A18897193002CB0B1 /* SJCRootViewController.m */,
+				17AB851C18897193002CB0B1 /* SJCRootViewController.xib */,
+				17AB851F18897193002CB0B1 /* Images.xcassets */,
+				17AB850E18897193002CB0B1 /* Supporting Files */,
+			);
+			path = "Navigation Bar Message Broadcaster";
+			sourceTree = "<group>";
+		};
+		17AB850E18897193002CB0B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17AB850F18897193002CB0B1 /* Navigation Bar Message Broadcaster-Info.plist */,
+				17AB851018897193002CB0B1 /* InfoPlist.strings */,
+				17AB851318897193002CB0B1 /* main.m */,
+				17AB851518897193002CB0B1 /* Navigation Bar Message Broadcaster-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17AB852C18897194002CB0B1 /* Navigation Bar Message BroadcasterTests */ = {
+			isa = PBXGroup;
+			children = (
+				17AB853218897194002CB0B1 /* Navigation_Bar_Message_BroadcasterTests.m */,
+				17AB852D18897194002CB0B1 /* Supporting Files */,
+			);
+			path = "Navigation Bar Message BroadcasterTests";
+			sourceTree = "<group>";
+		};
+		17AB852D18897194002CB0B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17AB852E18897194002CB0B1 /* Navigation Bar Message BroadcasterTests-Info.plist */,
+				17AB852F18897194002CB0B1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17AB850318897193002CB0B1 /* Navigation Bar Message Broadcaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17AB853618897194002CB0B1 /* Build configuration list for PBXNativeTarget "Navigation Bar Message Broadcaster" */;
+			buildPhases = (
+				17AB850018897193002CB0B1 /* Sources */,
+				17AB850118897193002CB0B1 /* Frameworks */,
+				17AB850218897193002CB0B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Navigation Bar Message Broadcaster";
+			productName = "Navigation Bar Message Broadcaster";
+			productReference = 17AB850418897193002CB0B1 /* Navigation Bar Message Broadcaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17AB84FC18897193002CB0B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SJC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Stuart Crook";
+			};
+			buildConfigurationList = 17AB84FF18897193002CB0B1 /* Build configuration list for PBXProject "Navigation Bar Message Broadcaster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17AB84FB18897193002CB0B1;
+			productRefGroup = 17AB850518897193002CB0B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17AB850318897193002CB0B1 /* Navigation Bar Message Broadcaster */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17AB850218897193002CB0B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17AB852018897193002CB0B1 /* Images.xcassets in Resources */,
+				17AB851218897193002CB0B1 /* InfoPlist.strings in Resources */,
+				17AB851E18897193002CB0B1 /* SJCRootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17AB850018897193002CB0B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17AB851418897193002CB0B1 /* main.m in Sources */,
+				17022618188AEFBD007FE04C /* SJCMessageRecieverViewController.m in Sources */,
+				17022617188AEFBD007FE04C /* SJCMessageBroadcaster.m in Sources */,
+				17AB851818897193002CB0B1 /* SJCAppDelegate.m in Sources */,
+				17AB851B18897193002CB0B1 /* SJCRootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		17AB851018897193002CB0B1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17AB851118897193002CB0B1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		17AB851C18897193002CB0B1 /* SJCRootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17AB851D18897193002CB0B1 /* Base */,
+			);
+			name = SJCRootViewController.xib;
+			sourceTree = "<group>";
+		};
+		17AB852F18897194002CB0B1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17AB853018897194002CB0B1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17AB853418897194002CB0B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		17AB853518897194002CB0B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17AB853718897194002CB0B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Navigation Bar Message Broadcaster/Navigation Bar Message Broadcaster-Prefix.pch";
+				INFOPLIST_FILE = "Navigation Bar Message Broadcaster/Navigation Bar Message Broadcaster-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		17AB853818897194002CB0B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Navigation Bar Message Broadcaster/Navigation Bar Message Broadcaster-Prefix.pch";
+				INFOPLIST_FILE = "Navigation Bar Message Broadcaster/Navigation Bar Message Broadcaster-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17AB84FF18897193002CB0B1 /* Build configuration list for PBXProject "Navigation Bar Message Broadcaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17AB853418897194002CB0B1 /* Debug */,
+				17AB853518897194002CB0B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17AB853618897194002CB0B1 /* Build configuration list for PBXNativeTarget "Navigation Bar Message Broadcaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17AB853718897194002CB0B1 /* Debug */,
+				17AB853818897194002CB0B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17AB84FC18897193002CB0B1 /* Project object */;
+}
