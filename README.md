@@ -3,7 +3,7 @@ SJCMessageBroadcaster
 
 Display messages in the navigation bar prompts of all view controllers in an app.
 
-A little something I needed in a project I was working on, which I hoped might come in useful for others. The example app show the same messages being displayed even as you tab between different view controllers.
+A little something I needed in a project I was working on, which I hoped might come in useful for others. The example app shows the same messages being displayed even as you tab between different view controllers.
 
 To use:
 
